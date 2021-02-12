@@ -1,0 +1,136 @@
+Elizabeth Bouchard
+February 11, 2021
+
+Q1: What do you expect a plot of the test statistic as a function of p to look like?
+# (Hint: when will the test statistic be the smallest? What would make it get bigger?)
+
+        # The test statistic would be smallest at p = 0.2, and it would increase away from p = 0.2.
+        
+
+# Q2: a) Plot the test statistic against possible values of p,
+#        and add a horizontal line at the critical value of the test statistic.
+#        (Hint: the function abline() can add lines to plots)
+#     b) Using your plot from (a), estimate the 95% CI for p. How did you get that estimate?
+
+## ~ [ YOU'RE CODE HERE ] ~ ##
+
+# a)
+plot(p.test,chi)
+abline(h = 3.84)
+
+# b) I would estimate the 95% CI for p to be: 0.05 and 0.45. The bounds of the 95% CI are
+# the values of the parameter that register a chi-square statistic of 1.92 (half of the critical value noted by the horizontal line),
+# so we noticed where the horizontal line intersects with the plotted line, and estimated where the line would intersect
+# with a line at chi = 1.92.
+
+
+# Q3: a) What is the 95% CI? The 95% CI between about 0.149 and 0.259.
+ci.min2
+ci.max2
+#     b) Plot the likelihood profile and 95% CIs for the proportion of sites occupied,
+#         based on the observation of 20 of 100 sites occupied
+
+
+L2 <- dbinom(20, 100, p.test)
+plot(p.test, L2, type = 'l')
+# CIs:
+abline(v = .149, lty = 2)
+abline(v = .259, lty = 2)
+
+
+# Q4: a) Describe the difference between these three distributions
+          # The fewer variables in your model, the lower the test statistic is.
+          # The three distributions are comparing different nested linear models to lm0.
+          # The histogram showing the test statistic (R) for the most complex linear model (lm0 and lm3) has the widest distribution.
+          # The histogram showing lm0 and lm1 has the highest probability density at very low values of R between about 0 and 2.
+#     b) Not thinking about the underlying mathematics of the chi-square function,
+#       but thinking about the likelihood ratio test,
+#       why does the test distribution behave as it does with more degrees of freedom?
+          #The test distribution behaves as it does with more degrees of freedom because when you add more variables, you are able to
+          #explain more variation regardless of whether the additional variables are meaningful. When you have more degrees of freedom
+          #there is a greater difference in the number of variables between the two models.
+          
+# Q5: Considering that the likelihood ratio test is only valid for nested models,
+#     define the p-value explicitly in the context of the question the likelihood ratio test asks
+#     and the null hypothesis being tested.
+#     (Hints: what is the definition of a p-value?
+#             In a likelihood ratio test, what is being observed? More specifically, what is the test statistic?
+#             What is the null hypothesis?)
+
+        #The p-value is the threshold at which we determine whether to reject the null hypothesis 
+        #that adding parameters did not improve the model fit more than we would expect due to chance.
+        
+        
+# Q6: Interpret this output:
+#     a) what does each chi-square statistic and p-value refer to?
+            #The chi-square statistics of 213.8158 and the corresponding p-value of <2e-16 refer to fm0 and fm1, indicating that
+            #the difference in these two models is more than we would expect due to chance, under the null hypothesis that there is no
+            #difference in the models.
+            #The chi-square statistic of 0.7433 and the p-value of 0.3886 refer to fm1 and fm2, indicating that
+            #the difference in these two models is not more than we would expect due to chance, under the null hypothesis that there is no
+            #difference in the models.
+#     b) What null hypotheses are being tested?
+            #The null hypotheses is that there is no difference in the models (fm0 and fm1, fm1 and fm2).
+#     c) Which variable(s) offer(s) significant predictive power?
+            #Sex is the variable that offers significant predictive power.
+
+
+fm3 <- glm(Survived ~ 1, family = "binomial", data = titanic)
+fm4 <- glm(Survived ~ Pclass, family = "binomial", data = titanic)
+fm5 <- glm(Survived ~ Pclass + Age, family = "binomial", data = titanic)
+fm6 <- glm(Survived ~ Age, family = "binomial", data = titanic)
+
+
+# Q8: How do you know these models are not nested?
+#Because we have multiple models with a single predictor variable.
+
+
+# Compare these models using the model.sel() function from the MuMIn package:
+?model.sel
+model.sel(fm3, fm4, fm5, fm6, rank = AIC, rank.args = alist(k = log(nobs(x))))
+
+
+# Q9: What is 'delta-AIC' and why is this more relevant than the raw AIC values?
+      #'delta-AIC' is the difference in information lost between your "best" model (the model with the lowest raw AIC value) and the
+      #model of interest. This is more relevant than the raw AIC values because your model set may not include the "true" best model for
+      #predicting your response variable. As such, you must compare the AIC values among other models in your model set.
+
+# Q10: Interpret your output - which model is best? Which variables most important?
+        #The model that includes the main effects of Pclass and Age best predicts Survival given our data and model set. Passenger class appears to be
+        #the more important individual variable.
+
+
+fitp <- fitdist(dat.test,"pois")
+summary(fitp)
+plot(fitp)
+fitnb <- fitdist(dat.test, "nbinom")
+summary(fitnb)
+
+# Q11: a) Which distribution is the best? # The negative binomial distribution is the best.
+#      b) On what basis are we making this inference? That is, what are really comparing?
+#         (Think about the mathematical definition of likelihood, and how it is calculated.)
+          # We are comparing the likelihood of a model given that the data has a Poisson distribution 
+          # vs. the likelihood of a model given that that data has a negative binomial distribution.
+          
+# Q12: Describe the difference between these approaches. What is my goal in each scenario?
+#      What questions am I asking, and what am I left with at the end?
+
+  # The difference between these two approaches is that the first approach is more likely to lead to a "best" model that includes variables
+  # that are not actually meaningful for predicting bee abundance, whereas the second approach is based on hypotheses and evidence.
+  # Although they both look at all possible combinations of variables, these approaches have a few key distinctions. 
+  # The first approach is data dredging. It asks: "Considering all possible combinations of these variables, which model best predicts bee 
+  # abundance?" The more variables you include, the more variation you'll be able to explain regardless of whether these variables are 
+  # meaningful for bee abundance. In this case, you are more likely to end up with a "best" model that actually includes some variables 
+  # that don't have a deterministic effect. Although both Approach 1 and Approach 2 test all possible combinations of variables, Approach 2
+  # selects which variables to incorporate based on predetermined hypotheses, evidence, and preliminary research.  
+  # Each model in the model set is a hypothesis and you are trying to figure out which of these hypotheses best predicts bee abundance. 
+  # It asks "Given the hypotheses in this model set, which models best predict bee abundance? What variables are more likely to be important
+  # in predicting bee abundance?" And the goal is to use these variables as the basis for their subsequent research.
+  # In this way, the model you select is likely to at least make sense biologically. However, the "best" model you choose using 
+  # Approach 1 might not even be biologically plausible given that you didn't choose which variables to incorporate based on existing 
+  # literature and hypotheses.
+  
+# Q13: Briefly, how might you interpret this? Which variables do you think are most important?
+
+# There is no clear "best" model given this data and model set. Five models have a delta-AIC less than 2, providing equivalent support.
+# I think the following variables are the most important because they appear in all of the models with deltaAIC <5: x11, x4, x6, and x8.
