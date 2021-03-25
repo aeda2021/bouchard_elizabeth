@@ -405,12 +405,12 @@ gelman.diag(fm.crabs.mcmc)
 
 Plot your results using `plotPost()`. In addition to plotting posteriors of just your parameters, plot the posterior for the mean number of burrows. Remember, your parameters are on the log scale. Give each plot a meaningful/interpretable title (e.g. "Effect of salinity" rather than "beta").
 ```{r Crab model - results, eval=F}
-plotPost(fm.crabs.dat$beta_0, main = 'Intercept')
-plotPost(fm.crabs.dat$beta_1, main = 'Effect of Salinity')
+plotPost(fm.crabs.dat$beta_0, main = 'Intercept, or Mean Number of Burrows', xlim = c(2,3))
+plotPost(fm.crabs.dat$beta_1, main = 'Effect of Salinity', xlim = c(-0.05,0.05))
 
-sapply(1:ncol(fm.crab.dat), function(x) {
-plotPost(fm.crab.dat[,x], main = colnames(fm.crab.dat)[x])
-})
+#Taking log scale into account
+plotPost(exp(fm.crabs.dat$beta_0), main = "Intercept, or Mean Number of Burrows")
+plotPost(exp(fm.crabs.dat$beta_1), main = "Effect of salinity", xlim=c(1.0,1.1))
 
 ```
 
@@ -421,6 +421,12 @@ plotPost(fm.crab.dat[,x], main = colnames(fm.crab.dat)[x])
 * Given our data and assumptions, what is the probability that salinity has no effect (approximately)?
 
 *Answer:*
+
+The mean (or expected) number of burrows is 11.07 and the 95% conference interval ranges from about 9.6 to 12.6 burrows. 
+The intercept means that we would expect there to be about 11 burrows at the mean salinity level. If we hadn't centered salinity measurements, our interpretation of the intercept would be the number of expected burrows when the salinity is 0.
+On average, the number of burrows increases by a factor of about 1.03 (95% confidence interval of 1.02 to 1.05) for every 1 unit increase in salinity.
+Given our data and assumptions, the probability that salinity has no effect is less than 2.5%.
+
 
 ## Hierarchical model
 
@@ -440,6 +446,7 @@ glimpse(ticks)
 
 [b0j, b1, b2, b3, pij, alpha, variance | yij] is proportional to the product across all observations of bern(yij|logit(b0j+b1x1+b2x2+b3x3)) * norm(b0j|alpha,variance) * norm(b1|0,5) * norm(b2|0,5) * norm(b3|0,5) * norm(alpha|0,2) * gamma(variance|1,1)
 
+
 Below, translate your probability statement into a JAGs model. Remember, for() loops are your product symbols.
 Use dbern(p) to denote a Bernoulli process, and logit() for the logit transformation (or ilogit() as the inverse, if you prefer). Use the priors described above.
 
@@ -447,49 +454,52 @@ Use dbern(p) to denote a Bernoulli process, and logit() for the logit transforma
 tick.mod <- function(){
   for(i in 1:N){
     y[i] ~ dbern(p[i])
-    logit(p[i]) <- b0[site[i]] + b1*x1[i] + b2*x2[i] + b3*x3[i]
+    logit(p[i]) <- alpha[site[i]] + b1* x1[i] + b2* x2[i] + b3*x3[i]
   }
   ## Random intercepts:
    for(j in 1:n.sites){
-    b0[j] ~ dnorm(alpha,1/sigma_site^2) 
+    alpha[j] ~ dnorm(alpha0,1/sigma_site^2) 
   }
   
   # Priors
   b1 ~ dnorm(0,0.2)
   b2 ~ dnorm(0,0.2)
   b3 ~ dnorm(0,0.2)
-  alpha ~ dnorm(0,0.5)
+  alpha0 ~ dnorm(0,0.5)
   sigma_site ~ dgamma(1, 1)
 }
+
+
 ```
 
 Here, set up your data list and initial values.
 ```{r Try it - set up, eval=F}
 datList.ticks <- list(
-  N = nrow(ticks), # Number observations
   y = ticks$ec, # the observations themselves
+  N = nrow(ticks), # Number observations
+  n.sites = length(unique(ticks$site)), # number of sites
+  site = as.factor(ticks$site), # site       
   x1 = ticks$forest, # forest area
   x2 = ticks$edge, # forest edge
-  x3 = ticks$evergreen, # evergreen forest
-  site = as.numeric(ticks$site), # site
-  n.sites = length(unique(ticks$site)) # number of sites
+  x3 = ticks$evergreen # evergreen forest
 )
 
 initial.values.ticks <- replicate(3, list(list(
-  alpha = rnorm(1, 0, 2), # 0.5
+  alpha0 = rnorm(1, 0, 2), # 0.5
   b1 = rnorm(1, 0, 5), # 0.2
   b2 = rnorm(1, 0, 5),
   b3 = rnorm(1, 0, 5),
   sigma_site = rgamma(1,1,0.01) #1
 )))
+  
+params <- c('alpha0', 'b1', 'b2', 'b3', 'sigma_site')
 
-params <- c('alpha', 'b1', 'b2', 'b3', 'sig.site', 'sig.obs')
 
 ```
 
 Run the model:
 ```{r Try it - run, eval=F}
-fm.ticks <- jags(
+fm.ticks <- jags(                       
   data = datList.ticks,
   model.file = tick.mod,
   inits = initial.values.ticks,
@@ -502,18 +512,36 @@ fm.ticks <- jags(
 
 fm.ticks.mcmc <- as.mcmc(fm.ticks)
 fm.ticks.dat <- as.data.frame(as.matrix(fm.ticks.mcmc))
+
+
 ```
 
 Run traceplots and Gelman's diagnostic:
 ```{r Try it- diagnostics, eval=F}
-
+traceplot(fm.ticks.mcmc)
+gelman.diag(fm.ticks.mcmc)
 ```
 
-Plot posteriors for EC occurrence, the effects of forest area, edge, and type, and the among-site variacne in EC occurrence. Give interpretable titles to your plots. If you want to transform the intercept from log-odds scale to probabilty, use the plogis() function.
+Plot posteriors for EC occurrence, the effects of forest area, edge, and type, and the among-site variance in EC occurrence. Give interpretable titles to your plots. If you want to transform the intercept from log-odds scale to probability, use the plogis() function.
 ```{r Try it - results, eval=F}
+sapply(1:ncol(fm.ticks.dat), function(x) {
+  plotPost(fm.ticks.dat[,x], main = colnames(fm.ticks.dat)[x])
+  })
+  
+
+plotPost(plogis(fm.ticks.dat$alpha0), main = "Mean Site-level EC occurrence")
+plotPost(plogis(fm.ticks.dat$b1), main = 'Effect of Forest Area')
+plotPost(plogis(fm.ticks.dat$b2), main = 'Effect of Forest Edge')
+plotPost(plogis(fm.ticks.dat$b3), main = 'Effect of Forest Type')
+plotPost(plogis(fm.ticks.dat$sigma_site), main = "Among-site Variance in EC Occurrence")
 
 ```
 
 *Question* Interpret these results. What was EC occupancy (I.e. probability of a plot testing positive)? Was there evidence for an effect of any of these variables? What would your general conclusions be?
 
 *Answer:*
+The probability of a plot testing positive for EC occupancy was about 0.27, with a 95% confidence interval of 0.139-0.423.
+Forest area appears to have an effect on EC occupancy. For every one unit increase in forest area, you'd expect a 0.35 increase in the probability of EC occupancy (with a 95% confidence interval of 0.237 to 0.482).
+Forest edge also appears to effect EC occupancy. For every one unit increase in forest edeg, you'd expect a 0.32 increase in  EC occupancy (with a 95% confidence interval of 0.195 to 0.438).
+Forest type also appears to be important. For every one unit increase in the proportion of forest that is evergreen/coniferous, you'd expect a 0.485 increase in EC occupancy, with a 95% confidence interval of 0.374-0.591.
+Overall, I would conclude that we expect large, fragmented, coniferous forests to have higher probabilities of detecting EC. The EC occurence also appears to differ among sites, as indicated by the among-site variance in EC Occurrence (mean is 0.75 with 95% confidence interval of 0.59-0.91).
