@@ -1,0 +1,193 @@
+﻿Date_Collected,Date_Processed,Processor,Point_on_Sandbar,Inshore_or_Offshore,Time_Point,Time,Size_Class,Subsample,Sample_ID,Subsample_ID,Nematode,Annelid,Clam,HSC_egg,Gastropod,Copepod,Ostracod,Foraminifera,Empty_oyster,Single_clam_valve,Empty_gastropod,Empty_ostracod,Exoskeleton,Isopod,Amphipod,Unknown Star Organism,Unknown,Notes,Notes_during_Collection,Notes_during_Processing
+6/2/20,8/17/20,Jen,B,Offshore,T1,10:10,2,1,B-Offshore-T1,B-Offshore-T1-2mm,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,"Sample was wet. Birds were feeding at this site prior to sampling, not actively during sampling. ",
+6/2/20,8/17/20,Jen,B,Offshore,T1,10:10,1,1,B-Offshore-T1,B-Offshore-T1-1mm,28,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,,"Sample was wet. Birds were feeding at this site prior to sampling, not actively during sampling. ",
+6/2/20,8/17/20,Jen,B,Offshore,T1,10:10,0.5,1,B-Offshore-T1,B-Offshore-T1-0.5mm,356,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,89*4 nematodes; unknown org was an empty gastropod shell,"Sample was wet. Birds were feeding at this site prior to sampling, not actively during sampling. ",The unknown empty shell in 0.5mm is some kind of bulloid gastropod shell. See image!
+6/2/20,8/17/20,Jen,B,Offshore,T1,10:10,0.25,  1/16,B-Offshore-T1,B-Offshore-T1-0.25mm,113,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,"Sample was wet. Birds were feeding at this site prior to sampling, not actively during sampling. ","Saw green algae in slight sphere, likely from HSC eggs -- saved pic as BO_TI_0.25mm_other. "
+6/2/20,9/30/20,Elizabeth,B,Offshore,T2,10:25,2,1,B-Offshore-T2,B-Offshore-T2-2mm,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,Tide line ~2m away; Active birds feeding (gulls); pore water,
+6/2/20,9/30/20,Elizabeth,B,Offshore,T2,10:25,1,1,B-Offshore-T2,B-Offshore-T2-1mm,11,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,Tide line ~2m away; Active birds feeding (gulls); pore water,
+6/2/20,9/30/20,Elizabeth,B,Offshore,T2,10:25,0.5,1,B-Offshore-T2,B-Offshore-T2-0.5mm,292,2,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,73*4 nematodes,Tide line ~2m away; Active birds feeding (gulls); pore water,"Talk to Daphne/Dave about whether we should count empty snail shell found in 500 micrometer subsample (see images:  BO_T2_0.5mm_organism1, BO_TO_0.5mm_organism2)"
+6/2/20,9/30/20,Elizabeth,B,Offshore,T2,10:25,0.25,  1/16,B-Offshore-T2,B-Offshore-T2-0.25mm,72,1,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,,Tide line ~2m away; Active birds feeding (gulls); pore water,
+6/2/20,10/19/20,Elizabeth,B,Offshore,T3,10:40,2,1,B-Offshore-T3,B-Offshore-T3-2mm,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,Tide line ~4.5m away; Active bird previously,
+6/2/20,10/19/20,Elizabeth,B,Offshore,T3,10:40,1,1,B-Offshore-T3,B-Offshore-T3-1mm,5,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,,Tide line ~4.5m away; Active bird previously,"Greenish brown blob is a HSC egg. When I squeezed it with tweezers it felt soft and squishy, and then it popped and dark tissues oozed out (see images: BO_T3_1mm_mystery, BO_T3_1mm_mystery2)! Plant material: BO_T3_1mm_organism1, BO_T3_1mm_organism2)"
+6/2/20,10/19/20,Elizabeth,B,Offshore,T3,10:40,0.5,1,B-Offshore-T3,B-Offshore-T3-0.5mm,156,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,39*4 nematodes,Tide line ~4.5m away; Active bird previously,
+6/2/20,10/19/20,Elizabeth,B,Offshore,T3,10:40,0.25,  1/8 ,B-Offshore-T3,B-Offshore-T3-0.25mm,120,1,0,0,0,2,2,0,0,0,0,0,0,0,0,0,0,herpaticoid copepods,Tide line ~4.5m away; Active bird previously,
+6/2/20,10/26/20,Elizabeth,B,Offshore,T4,10:55,2,1,B-Offshore-T4,B-Offshore-T4-2mm,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Broken snail shell,Tide line ~10m away; previous active bird feeding; no pore H2O,
+6/2/20,10/26/20,Elizabeth,B,Offshore,T4,10:55,1,1,B-Offshore-T4,B-Offshore-T4-1mm,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,Tide line ~10m away; previous active bird feeding; no pore H2O,
+6/2/20,10/26/20,Elizabeth,B,Offshore,T4,10:55,0.5,1,B-Offshore-T4,B-Offshore-T4-0.5mm,240,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,60*4 nematodes,Tide line ~10m away; previous active bird feeding; no pore H2O,
+6/2/20,10/26/20,Elizabeth,B,Offshore,T4,10:55,0.25,  1/16,B-Offshore-T4,B-Offshore-T4-0.25mm,59,0,0,0,0,0,2,2,0,0,0,0,0,0,0,0,0,,Tide line ~10m away; previous active bird feeding; no pore H2O,
+6/2/20,11/2/20,Elizabeth,B,Offshore,T5,11:10,2,1,B-Offshore-T5,B-Offshore-T5-2mm,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,Tide line ~15m away; Previous active gull feeding,
+6/2/20,11/2/20,Elizabeth,B,Offshore,T5,11:10,1,1,B-Offshore-T5,B-Offshore-T5-1mm,16,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,Tide line ~15m away; Previous active gull feeding,
+6/2/20,11/2/20,Elizabeth,B,Offshore,T5,11:10,0.5,1,B-Offshore-T5,B-Offshore-T5-0.5mm,76,2,0,0,0,0,0,0,0,4,0,0,0,0,0,0,0,19*4 nematodes; 4 single clam valves,Tide line ~15m away; Previous active gull feeding,
+6/2/20,11/2/20,Elizabeth,B,Offshore,T5,11:10,0.25,NA,B-Offshore-T5,B-Offshore-T5-0.25mm,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,,Tide line ~15m away; Previous active gull feeding,
+6/2/20,10/26/20,Elizabeth,B,Offshore,T6,11:25,2,1,B-Offshore-T6,B-Offshore-T6-2mm,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1 clam valve,Tide line ~20m away; Active gull feeding previously,
+6/2/20,10/26/20,Elizabeth,B,Offshore,T6,11:25,1,1,B-Offshore-T6,B-Offshore-T6-1mm,104,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,,Tide line ~20m away; Active gull feeding previously,
+6/2/20,10/26/20,Elizabeth,B,Offshore,T6,11:25,0.5,1,B-Offshore-T6,B-Offshore-T6-0.5mm,412,0,0,1,0,0,0,0,0,2,2,0,0,0,0,0,0,2 clam valves; 103*4 nematodes,Tide line ~20m away; Active gull feeding previously,
+6/2/20,10/26/20,Elizabeth,B,Offshore,T6,11:25,0.25,  1/16,B-Offshore-T6,B-Offshore-T6-0.25mm,52,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,Tide line ~20m away; Active gull feeding previously,
+6/2/20,7/27/20,Alex ,B,Inshore,T1,10:15,2,1,B-Inshore-T1,B-Inshore-T1-2mm,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,There was active bird feeding at the site proior to sampling. Sample was taken at the high tide line; sample was wet,
+6/2/20,7/27/20,Alex ,B,Inshore,T1,10:15,1,1,B-Inshore-T1,B-Inshore-T1-1mm,50,1,0,2,0,0,0,0,0,2,0,0,0,0,0,0,0,,There was active bird feeding at the site proior to sampling. Sample was taken at the high tide line; sample was wet,
+6/2/20,7/27/20,Alex ,B,Inshore,T1,10:15,0.5,1,B-Inshore-T1,B-Inshore-T1-0.5mm,964,9,0,0,0,0,0,0,0,5,0,0,0,0,0,0,0,241*4 nematodes,There was active bird feeding at the site proior to sampling. Sample was taken at the high tide line; sample was wet,
+6/2/20,7/27/20,Alex ,B,Inshore,T1,10:15,0.25,  1/16,B-Inshore-T1,B-Inshore-T1-0.25mm,10,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,,There was active bird feeding at the site proior to sampling. Sample was taken at the high tide line; sample was wet,
+6/2/20,8/24/20,Alex ,B,Inshore,T2,10:30,2,1,B-Inshore-T2,B-Inshore-T2-2mm,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,Tide line at ~1m away. Had previous active bird feeding. There was a lot of stuff sitting on the top of the sand,
+6/2/20,8/24/20,Alex ,B,Inshore,T2,10:30,1,1,B-Inshore-T2,B-Inshore-T2-1mm,53,0,1,13,0,0,0,0,0,0,0,0,0,0,0,0,0,,Tide line at ~1m away. Had previous active bird feeding. There was a lot of stuff sitting on the top of the sand,"The clam in 1mm was not preserved, because it was crushed in the vial"
+6/2/20,8/24/20,Alex ,B,Inshore,T2,10:30,0.5,1,B-Inshore-T2,B-Inshore-T2-0.5mm,920,2,0,0,0,0,0,0,0,3,1,0,0,0,0,0,0,230*4 nematodes,Tide line at ~1m away. Had previous active bird feeding. There was a lot of stuff sitting on the top of the sand,
+6/2/20,8/24/20,Alex ,B,Inshore,T2,10:30,0.25,  1/16,B-Inshore-T2,B-Inshore-T2-0.25mm,10,0,0,0,0,0,0,2,0,1,0,0,0,0,0,0,0,,Tide line at ~1m away. Had previous active bird feeding. There was a lot of stuff sitting on the top of the sand,
+6/2/20,9/2/20,Elizabeth,B,Inshore,T3,10:45,2,1,B-Inshore-T3,B-Inshore-T3-2mm,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,Tide line ~2m away; Active bird feeding previously; no pore water,
+6/2/20,9/2/20,Elizabeth,B,Inshore,T3,10:45,1,1,B-Inshore-T3,B-Inshore-T3-1mm,163,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,Tide line ~2m away; Active bird feeding previously; no pore water,
+6/2/20,9/2/20,Elizabeth,B,Inshore,T3,10:45,0.5,1,B-Inshore-T3,B-Inshore-T3-0.5mm,588,13,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,147*4 nematodes; 4 single clam valves,Tide line ~2m away; Active bird feeding previously; no pore water,
+6/2/20,9/2/20,Elizabeth,B,Inshore,T3,10:45,0.25,NA,B-Inshore-T3,B-Inshore-T3-0.25mm,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,,Tide line ~2m away; Active bird feeding previously; no pore water,
+6/2/20,11/2/20,Elizabeth,B,Inshore,T4,23:00,2,1,B-Inshore-T4,B-Inshore-T4-2mm,0,0,1,1,0,0,0,0,0,1,0,0,0,1,0,0,0, 3+ polychaete tubes that are empty and/or containing sediment,Tide line ~2.5 m away; previous active gull feeding,Dave confirmed mystery organism  (see image: BI_T4_2mm_organism1) is an isopod (Doris genus) 
+6/2/20,11/2/20,Elizabeth,B,Inshore,T4,23:00,1,1,B-Inshore-T4,B-Inshore-T4-1mm,55,0,0,32,0,0,0,0,0,6,0,0,0,0,0,0,0,6 single clam valves,Tide line ~2.5 m away; previous active gull feeding,
+6/2/20,11/2/20,Elizabeth,B,Inshore,T4,23:00,0.5,1,B-Inshore-T4,B-Inshore-T4-0.5mm,564,9,2,0,0,0,0,0,0,10,0,0,0,0,0,0,0,141*4 nematodes; 10 single clam valves; 8 polychaetes and 1 weird annelid (see image),Tide line ~2.5 m away; previous active gull feeding,1 mystery annelid (see images: BI_T4_0.5mm_organism2 and BI_T4_0.5mm_organism3). EB decided the following picture is not an animal: BI_T4_0.5mm_organism4
+6/2/20,11/2/20,Elizabeth,B,Inshore,T4,23:00,0.25,NA,B-Inshore-T4,B-Inshore-T4-0.25mm,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,0,NA,,Tide line ~2.5 m away; previous active gull feeding,
+6/2/20,10/28/20,Elizabeth,B,Inshore,T5,11:15,2,1,B-Inshore-T5,B-Inshore-T5-2mm,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,2 mystery organisms of same species (isopod); 2 large tube worm tubes (1 filled with dark brown debris but can't tell if it's decomposed worm or other tissue; second tube contains mostly sand with a little bit of dark brown material on one end),Tide line about ~3m away; previous active gull feeding,Dave confirmed mystery organism 1 in 2mm sample (see images: BI_T5_2mm_organism1; BI_T5_2mm_organism1bottom; BI_T5_2mm_organism1top) is isopod (Doris genus). The first image is the first individual and the second and third images are the second individual.
+6/2/20,10/28/20,Elizabeth,B,Inshore,T5,11:15,1,1,B-Inshore-T5,B-Inshore-T5-1mm,165,0,0,30,0,0,0,0,0,0,0,0,0,0,0,0,0,,Tide line about ~3m away; previous active gull feeding,
+6/2/20,10/28/20,Elizabeth,B,Inshore,T5,11:15,0.5,1,B-Inshore-T5,B-Inshore-T5-0.5mm,428,12,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,107*4 nematodes,Tide line about ~3m away; previous active gull feeding,
+6/2/20,10/28/20,Elizabeth,B,Inshore,T5,11:15,0.25,  1/16,B-Inshore-T5,B-Inshore-T5-0.25mm,40,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,Tide line about ~3m away; previous active gull feeding,
+6/2/20,10/28/20,Elizabeth,B,Inshore,T6,11:30,2,1,B-Inshore-T6,B-Inshore-T6-2mm,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,,Tide line 3.5m away; previous gull feeding,
+6/2/20,10/28/20,Elizabeth,B,Inshore,T6,11:30,1,1,B-Inshore-T6,B-Inshore-T6-1mm,129,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,,Tide line 3.5m away; previous gull feeding,
+6/2/20,10/28/20,Elizabeth,B,Inshore,T6,11:30,0.5,1,B-Inshore-T6,B-Inshore-T6-0.5mm,384,7,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,96*4 nematodes,Tide line 3.5m away; previous gull feeding,
+6/2/20,10/28/20,Elizabeth,B,Inshore,T6,11:30,0.25,  1/16,B-Inshore-T6,B-Inshore-T6-0.25mm,59,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,,Tide line 3.5m away; previous gull feeding,
+6/2/20,6/3/20,Alex ,D,Offshore,T1,10:16,2,1,D-Offshore-T1,D-Offshore-T1-2mm,1,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"EB: Based on image, ""worms"" are definitely polychaetes",Water present. ,
+6/2/20,6/3/20,Alex ,D,Offshore,T1,10:16,1,1,D-Offshore-T1,D-Offshore-T1-1mm,98,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,,Water present. ,
+6/2/20,6/3/20,Alex ,D,Offshore,T1,10:16,0.5,1,D-Offshore-T1,D-Offshore-T1-0.5mm,522,2,0,0,0,0,0,0,0,0,0,0,0,0,0,3,4,"unknown includes 4 empty shells and 3 star worms; EB: based on images, ""worms"" are definitely polychaetes",Water present. ,
+6/2/20,6/3/20,Alex ,D,Offshore,T1,10:16,0.25,  1/8 ,D-Offshore-T1,D-Offshore-T1-0.25mm,21,0,0,0,0,0,2,0,0,0,0,1,0,0,0,2,0,unknown are unkown  star worms,Water present. ,
+6/2/20,6/3/20,Alex ,D,Offshore,T1,10:16,<0.25,  1/16,D-Offshore-T1,D-Offshore-T1-<0.25mm,3      ,0      ,0      ,0      ,0,0,0,1,0,0,0,0,0,0,0,0,0,,Water present. ,The <0.25 became more viscous over time making it difficult to suction organisms
+6/2/20,6/9/20,Alex,D,Offshore,T2,10:31,2,1,D-Offshore-T2,D-Offshore-T2-2mm,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,"Sample bag had a hole in it, when thawing the sample water gotten into the bag"
+6/2/20,6/9/20,Alex,D,Offshore,T2,10:31,1,1,D-Offshore-T2,D-Offshore-T2-1mm,179,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,unknown is like crustacean/bug; dave says unknown is an isopod (Doris genus),,"Sample bag had a hole in it, when thawing the sample water gotten into the bag"
+6/2/20,6/9/20,Alex,D,Offshore,T2,10:31,0.5,1,D-Offshore-T2,D-Offshore-T2-0.5mm,853,2,2,0,0,0,0,0,0,8,0,0,0,0,0,1,0,unknown is star shaped org,,"Sample bag had a hole in it, when thawing the sample water gotten into the bag"
+6/2/20,6/9/20,Alex,D,Offshore,T2,10:31,0.25,  1/16,D-Offshore-T2,D-Offshore-T2-0.25mm,9,1,0,0,0,0,2,2,0,2,0,0,0,0,0,0,0,,,"Sample bag had a hole in it, when thawing the sample water gotten into the bag"
+6/2/20,6/9/20,Alex,D,Offshore,T2,10:31,<0.25,  1/16,D-Offshore-T2,D-Offshore-T2-<0.25mm,2      ,0,0,0,0,0,0,2,0,1,0,0,0,0,0,0,0,,,"Sample bag had a hole in it, when thawing the sample water gotten into the bag"
+6/2/20,6/17/2020; 6/18/2020,Alex,D,Offshore,T3,10:46,2,1,D-Offshore-T3,D-Offshore-T3-2mm,2,3,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,,,"Sample bag had a hole in it, when thawing the sample water gotten into the bag"
+6/2/20,6/17/2020; 6/18/2020,Alex,D,Offshore,T3,10:46,1,1,D-Offshore-T3,D-Offshore-T3-1mm,93,0,0,0,0,0,0,0,0,2,1,0,0,0,0,0,0,,,"Sample bag had a hole in it, when thawing the sample water gotten into the bag"
+6/2/20,6/17/2020; 6/18/2020,Alex,D,Offshore,T3,10:46,0.5,1,D-Offshore-T3,D-Offshore-T3-0.5mm,446,0,0,0,0,0,0,0,0,6,0,0,0,0,0,0,0,,,"Sample bag had a hole in it, when thawing the sample water gotten into the bag"
+6/2/20,6/17/2020; 6/18/2020,Alex,D,Offshore,T3,10:46,0.25,  1/8 ,D-Offshore-T3,D-Offshore-T3-0.25mm,16,2,0,0,0,0,1,11,0,0,0,0,0,0,0,1,0,unknown is star org,,"Sample bag had a hole in it, when thawing the sample water gotten into the bag"
+6/2/20,6/17/2020; 6/18/2020,Alex,D,Offshore,T3,10:46,<0.25,  1/32,D-Offshore-T3,D-Offshore-T3-<0.25mm,10      ,0,0,0,0,0,0,12,0,0,0,0,0,0,0,2,0,unknown is star org,,"Sample bag had a hole in it, when thawing the sample water gotten into the bag"
+6/2/20,6/23/2020; 6/24/2020,Alex,D,Offshore,T4,11:01,2,1,D-Offshore-T4,D-Offshore-T4-2mm,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,,,Bivalve sample not preseved due to shells falling apart
+6/2/20,6/23/2020; 6/24/2020,Alex,D,Offshore,T4,11:01,1,1,D-Offshore-T4,D-Offshore-T4-1mm,69,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,unknown is star,,Bivalve sample not preseved due to shells falling apart
+6/2/20,6/23/2020; 6/24/2020,Alex,D,Offshore,T4,11:01,0.5,1,D-Offshore-T4,D-Offshore-T4-0.5mm,1150,1,0,0,0,0,1,0,0,9,0,0,0,0,0,2,0,unknown is star org,,Bivalve sample not preseved due to shells falling apart
+6/2/20,6/23/2020; 6/24/2020,Alex,D,Offshore,T4,11:01,0.25,  1/16,D-Offshore-T4,D-Offshore-T4-0.25mm,111,0,1,0,0,1,0,7,0,3,0,0,0,0,0,0,0,copepod is metamorphose,,Bivalve sample not preseved due to shells falling apart
+6/2/20,6/23/2020; 6/24/2020,Alex,D,Offshore,T4,11:01,<0.25,  1/32,D-Offshore-T4,D-Offshore-T4-<0.25mm,15      ,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,,,Bivalve sample not preseved due to shells falling apart
+6/2/20,7/6/2020 7/7/2020,Alex,D,Offshore,T5,11:16,2,1,D-Offshore-T5,D-Offshore-T5-2mm,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,
+6/2/20,7/6/2020 7/7/2020,Alex,D,Offshore,T5,11:16,1,1,D-Offshore-T5,D-Offshore-T5-1mm,5,0,0,0,0,0,0,0,0,3,0,0,0,0,0,0,0,,,
+6/2/20,7/6/2020 7/7/2020,Alex,D,Offshore,T5,11:16,0.5,1,D-Offshore-T5,D-Offshore-T5-0.5mm,464,1,1,0,0,0,0,0,0,9,0,0,0,0,0,0,1,116*4 nematodes; unknown organism is long spiral,,To move faster counting the nematodes I grided off the bottom of the 0.5 mm dish into 1 cm boxes. I did a subample of the squares (13) for the neamtodes and multiplies that by 4 to gice an estimate of how many there were.
+6/2/20,7/6/2020 7/7/2020,Alex,D,Offshore,T5,11:16,0.25,  1/16,D-Offshore-T5,D-Offshore-T5-0.25mm,61,1,0,0,0,0,0,7,0,0,0,0,0,0,0,0,0,,,
+6/2/20,7/6/2020 7/7/2020,Alex,D,Offshore,T5,11:16,<0.25,  1/32,D-Offshore-T5,D-Offshore-T5-<0.25mm,23      ,0,0,0,0,0,0,6,0,0,0,0,0,0,0,0,0,,,
+6/2/20,7/13/20,Alex,D,Offshore,T6,11:31,2,1,D-Offshore-T6,D-Offshore-T6-2mm,33,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,,,
+6/2/20,7/13/20,Alex,D,Offshore,T6,11:31,1,1,D-Offshore-T6,D-Offshore-T6-1mm,59,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,
+6/2/20,7/13/20,Alex,D,Offshore,T6,11:31,0.5,1,D-Offshore-T6,D-Offshore-T6-0.5mm,1120,3,2,0,0,0,0,0,0,7,0,0,0,0,0,0,0,280*4 nematodes,,I did the same counting method that i did last time for the nematodes using the boxes
+6/2/20,7/13/20,Alex,D,Offshore,T6,11:31,0.25,  1/16,D-Offshore-T6,D-Offshore-T6-0.25mm,96,0,0,0,0,0,0,11,0,0,0,4,0,0,0,1,0,unknown is star org,,
+6/2/20,7/13/20,Alex,D,Offshore,T6,11:31,<0.25,  1/32,D-Offshore-T6,D-Offshore-T6-<0.25mm,3      ,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,,,
+6/2/20,6/5/2020; 6/10/2020,Jen,D,Inshore,T1,10:12,2,1,D-Inshore-T1,D-Inshore-T1-2mm,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,,Water present.,
+6/2/20,6/5/2020; 6/10/2020,Jen,D,Inshore,T1,10:12,1,1,D-Inshore-T1,D-Inshore-T1-1mm,52,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,,Water present.,
+6/2/20,6/5/2020; 6/10/2020,Jen,D,Inshore,T1,10:12,0.5,1,D-Inshore-T1,D-Inshore-T1-0.5mm,710,1,0,0,0,0,0,0,0,9,0,0,0,0,0,0,0,,Water present.,
+6/2/20,6/5/2020; 6/10/2020,Jen,D,Inshore,T1,10:12,0.25,  1/16,D-Inshore-T1,D-Inshore-T1-0.25mm,91,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,Water present.,Processed 0.25mm and <0.25mm 5 days after sieving. This may have reduced the nematode counts. 
+6/2/20,6/5/2020; 6/10/2020,Jen,D,Inshore,T1,10:12,<0.25,  1/16,D-Inshore-T1,D-Inshore-T1-<0.25mm,4      ,0      ,0      ,0      ,0      ,0,0,0,0,0,0,0,0,0,0,0,0,,Water present.,Processed 0.25mm and <0.25mm 5 days after sieving. This may have reduced the nematode counts. 
+6/2/20,6/11/2020; 6/15/2020,Jen,D,Inshore,T2,10:27,2,1,D-Inshore-T2,D-Inshore-T2-2mm,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,,,
+6/2/20,6/11/2020; 6/15/2020,Jen,D,Inshore,T2,10:27,1,1,D-Inshore-T2,D-Inshore-T2-1mm,254,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,,,
+6/2/20,6/11/2020; 6/15/2020,Jen,D,Inshore,T2,10:27,0.5,1,D-Inshore-T2,D-Inshore-T2-0.5mm,645,9,1,0,0,0,0,0,0,3,0,0,0,0,0,0,0,2 species of polychaete; clam is a full shell but it appears to be empty,,
+6/2/20,6/11/2020; 6/15/2020,Jen,D,Inshore,T2,10:27,0.25,  1/16,D-Inshore-T2,D-Inshore-T2-0.25mm,29,1,0,0,0,1,1,0,0,0,0,0,0,0,0,1,0,unknown is star org,,
+,6/11/2020; 6/15/2020,Jen,D,Inshore,T2,10:27,<0.25,  1/4 ,D-Inshore-T2,D-Inshore-T2-<0.25mm,21      ,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,,,Processed <0.25mm 4 days after sieving. 
+6/2/20,6/19/20,Jen,D,Inshore,T3,10:42,2,1,D-Inshore-T3,D-Inshore-T3-2mm,13,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,,,
+6/2/20,6/19/20,Jen,D,Inshore,T3,10:42,1,1,D-Inshore-T3,D-Inshore-T3-1mm,225,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,,,
+6/2/20,6/19/20,Jen,D,Inshore,T3,10:42,0.5,1,D-Inshore-T3,D-Inshore-T3-0.5mm,1064,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,unknown organism looks like large nematode <- EB: looked a picture and decided that it is grass,,
+6/2/20,6/19/20,Jen,D,Inshore,T3,10:42,0.25,  1/16,D-Inshore-T3,D-Inshore-T3-0.25mm,130,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1 broken clam shell ,,
+6/2/20,6/19/20,Jen,D,Inshore,T3,10:42,<0.25,  1/32,D-Inshore-T3,D-Inshore-T3-<0.25mm,3      ,0      ,0      ,0      ,0,0,0,0,0,0,0,0,0,0,0,0,0,,,
+6/2/20,6/25/2020 6/26/2020,Jen,D,Inshore,T4,10:58,2,1,D-Inshore-T4,D-Inshore-T4-2mm,10,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,,,
+6/2/20,6/25/2020 6/26/2020,Jen,D,Inshore,T4,10:58,1,1,D-Inshore-T4,D-Inshore-T4-1mm,264,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,unknown is worm inside cocoon <- EB marked as annelid,,
+6/2/20,6/25/2020 6/26/2020,Jen,D,Inshore,T4,10:58,0.5,1,D-Inshore-T4,D-Inshore-T4-0.5mm,1638,8,1,0,0,0,0,0,0,5,0,0,0,0,0,0,0,,,
+6/2/20,6/25/2020 6/26/2020,Jen,D,Inshore,T4,10:58,0.25,  1/16,D-Inshore-T4,D-Inshore-T4-0.25mm,34,0,1,0,0,0,0,2,0,0,0,0,0,0,0,4,0,unknown is star org,,0.25 and <0.25 were processed By Alex the day after sieving
+6/2/20,6/25/2020 6/26/2020,Jen,D,Inshore,T4,10:58,<0.25,  1/32,D-Inshore-T4,D-Inshore-T4-<0.25mm,5      ,0      ,0      ,0      ,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0.25 and <0.25 were processed By Alex the day after sieving
+6/2/20,7/14/2020 7/15/2020,Jen,D,Inshore,T5,11:13,2,1,D-Inshore-T5,D-Inshore-T5-2mm,10,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,unknown org is similar to copepod (Dave: it is an isopod),,90% of the sample was in the 0.25mm sieve. Dave confirmed that mystery organism is an isopod (Doris genus).
+6/2/20,7/14/2020 7/15/2020,Jen,D,Inshore,T5,11:13,1,1,D-Inshore-T5,D-Inshore-T5-1mm,160,1,2,0,0,0,0,0,0,2,0,0,0,0,0,0,0,See image of 1 sack-like thing that isn't an animal.,,90% of the sample was in the 0.25mm sieve. 
+6/2/20,7/14/2020 7/15/2020,Jen,D,Inshore,T5,11:13,0.5,1,D-Inshore-T5,D-Inshore-T5-0.5mm,520,5,0,0,0,0,0,0,0,9,0,0,0,0,0,0,0,130*4 nematodes; 2 species of polychaete,,90% of the sample was in the 0.25mm sieve. 
+6/2/20,7/14/2020 7/15/2020,Jen,D,Inshore,T5,11:13,0.25,  1/32,D-Inshore-T5,D-Inshore-T5-0.25mm,45,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,,,90% of the sample was in the 0.25mm sieve. 
+6/2/20,7/14/2020 7/15/2020,Jen,D,Inshore,T5,11:13,<0.25,  1/4 ,D-Inshore-T5,D-Inshore-T5-<0.25mm,99      ,0      ,0      ,0      ,0,0,0,0,0,0,0,0,0,0,0,0,0,,,90% of the sample was in the 0.25mm sieve. 
+6/2/20,7/17/20,Jen,D,Inshore,T6,11:28,2,1,D-Inshore-T6,D-Inshore-T6-2mm,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,,,"2mm: Clam was diff spp than usual. Picture taken and preserved. There was a worm-like org attached to the clam but could have been the clam's insides. Therefore, did not record worm"
+6/2/20,7/17/20,Jen,D,Inshore,T6,11:28,1,1,D-Inshore-T6,D-Inshore-T6-1mm,300,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,
+6/2/20,7/17/20,Jen,D,Inshore,T6,11:28,0.5,1,D-Inshore-T6,D-Inshore-T6-0.5mm,516,1,0,0,0,0,0,0,0,8,0,0,0,0,0,0,0,129*4 nematodes,,
+6/2/20,7/17/20,Jen,D,Inshore,T6,11:28,0.25,  1/32,D-Inshore-T6,D-Inshore-T6-0.25mm,116,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,,,
+6/2/20,7/17/20,Jen,D,Inshore,T6,11:28,<0.25,  1/6 ,D-Inshore-T6,D-Inshore-T6-<0.25mm,185      ,0      ,0,0,0,8,0,0,0,0,0,0,0,0,0,0,0,,,
+6/2/20,2/12/21,Elizabeth,A,Offshore,T1,10:17,2,1,A-Offshore-T1,A-Offshore-T1-2mm,NA,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,,,Isopod is Doris.
+6/2/20,2/12/21,Elizabeth,A,Offshore,T1,10:17,1,1,A-Offshore-T1,A-Offshore-T1-1mm,NA,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,Nematodes present.
+6/2/20,2/12/21,Elizabeth,A,Offshore,T1,10:17,0.5,1,A-Offshore-T1,A-Offshore-T1-0.5mm,NA,4,2,0,0,0,0,0,0,2,0,0,0,0,0,0,1,,,Unknown is: Terrestrial insect or larval stage. Same as FarmA_Control3_0.5mm_unknown
+6/2/20,2/12/21,Elizabeth,A,Offshore,T2,10:31,2,1,A-Offshore-T2,A-Offshore-T2-2mm,NA,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,,,Isopod is Doris.
+6/2/20,2/12/21,Elizabeth,A,Offshore,T2,10:31,1,1,A-Offshore-T2,A-Offshore-T2-1mm,NA,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,
+6/2/20,2/12/21,Elizabeth,A,Offshore,T2,10:31,0.5,1,A-Offshore-T2,A-Offshore-T2-0.5mm,NA,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,
+6/2/20,2/3/21,Elizabeth,A,Offshore,T3,10:45,2,1,A-Offshore-T3,A-Offshore-T3-2mm,NA,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,,,
+6/2/20,2/3/21,Elizabeth,A,Offshore,T3,10:45,1,1,A-Offshore-T3,A-Offshore-T3-1mm,NA,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,,,Isopod is Doris genus. Nematodes present.
+6/2/20,2/3/21,Elizabeth,A,Offshore,T3,10:45,0.5,1,A-Offshore-T3,A-Offshore-T3-0.5mm,NA,2,0,0,0,0,1,0,0,2,0,0,0,0,0,0,0,,,Nematodes present. Many fragmented clam shells.
+6/2/20,2/15/21,Elizabeth,A,Offshore,T4,11:01,2,1,A-Offshore-T4,A-Offshore-T4-2mm,NA,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,,,Isopod is Doris genus.
+6/2/20,2/15/21,Elizabeth,A,Offshore,T4,11:01,1,1,A-Offshore-T4,A-Offshore-T4-1mm,NA,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,,,Isopod is Doris genus. Nematodes present.
+6/2/20,2/15/21,Elizabeth,A,Offshore,T4,11:01,0.5,1,A-Offshore-T4,A-Offshore-T4-0.5mm,NA,2,1,0,0,0,0,0,0,2,3,0,0,0,0,0,0,,,Nematodes present.
+6/2/20,2/15/21,Elizabeth,A,Offshore,T5,11:17,2,1,A-Offshore-T5,A-Offshore-T5-2mm,NA,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,
+6/2/20,2/15/21,Elizabeth,A,Offshore,T5,11:17,1,1,A-Offshore-T5,A-Offshore-T5-1mm,NA,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,Nematodes present.
+6/2/20,2/15/21,Elizabeth,A,Offshore,T5,11:17,0.5,1,A-Offshore-T5,A-Offshore-T5-0.5mm,NA,1,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,,,Nematodes present.
+6/2/20,2/15/21,Elizabeth,A,Offshore,T6,11:30,2,1,A-Offshore-T6,A-Offshore-T6-2mm,NA,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,
+6/2/20,2/15/21,Elizabeth,A,Offshore,T6,11:30,1,1,A-Offshore-T6,A-Offshore-T6-1mm,NA,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,,,Nematodes present.
+6/2/20,2/15/21,Elizabeth,A,Offshore,T6,11:30,0.5,1,A-Offshore-T6,A-Offshore-T6-0.5mm,NA,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,,,Nematodes present.
+6/2/20,2/15/21,Elizabeth,A,Inshore,T1,10:13,2,1,A-Inshore-T1,A-Inshore-T1-2mm,NA,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,
+6/2/20,2/15/21,Elizabeth,A,Inshore,T1,10:13,1,1,A-Inshore-T1,A-Inshore-T1-1mm,NA,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,,,Nematodes present.
+6/2/20,2/15/21,Elizabeth,A,Inshore,T1,10:13,0.5,1,A-Inshore-T1,A-Inshore-T1-0.5mm,NA,11,5,0,0,0,1,0,0,9,0,0,0,0,0,0,0,,,Nematodes present.
+6/2/20,2/12/21,Elizabeth,A,Inshore,T2,10:28,2,1,A-Inshore-T2,A-Inshore-T2-2mm,NA,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,
+6/2/20,2/12/21,Elizabeth,A,Inshore,T2,10:28,1,1,A-Inshore-T2,A-Inshore-T2-1mm,NA,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,
+6/2/20,2/12/21,Elizabeth,A,Inshore,T2,10:28,0.5,1,A-Inshore-T2,A-Inshore-T2-0.5mm,NA,8,3,0,0,0,0,0,0,10,3,0,0,0,0,0,1,,,Unknown is: Terrestrial insect or larval stage. Same as FarmA_Control3_0.5mm_unknown. Nematodes present.
+6/2/20,2/5/21,Elizabeth,A,Inshore,T3,10:43,2,1,A-Inshore-T3,A-Inshore-T3-2mm,NA,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,
+6/2/20,2/5/21,Elizabeth,A,Inshore,T3,10:43,1,1,A-Inshore-T3,A-Inshore-T3-1mm,NA,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,,,Nematodes present.
+6/2/20,2/5/21,Elizabeth,A,Inshore,T3,10:43,0.5,1,A-Inshore-T3,A-Inshore-T3-0.5mm,NA,8,3,0,0,0,2,0,0,15,3,0,0,0,0,0,0,,,Nematodes present.
+6/2/20,2/15/21,Elizabeth,A,Inshore,T4,10:58,2,1,A-Inshore-T4,A-Inshore-T4-2mm,NA,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,
+6/2/20,2/15/21,Elizabeth,A,Inshore,T4,10:58,1,1,A-Inshore-T4,A-Inshore-T4-1mm,NA,0,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,,,Nematodes present.
+6/2/20,2/15/21,Elizabeth,A,Inshore,T4,10:58,0.5,1,A-Inshore-T4,A-Inshore-T4-0.5mm,NA,4,2,0,0,0,0,0,0,8,4,0,0,0,0,0,0,,,Nematodes present.
+6/2/20,2/5/21,Elizabeth,A,Inshore,T5,11:14,2,1,A-Inshore-T5,A-Inshore-T5-2mm,NA,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,T60 min,
+6/2/20,2/5/21,Elizabeth,A,Inshore,T5,11:14,1,1,A-Inshore-T5,A-Inshore-T5-1mm,NA,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,T60 min,Nematodes present. Clam is most common species that we see in samples.
+6/2/20,2/5/21,Elizabeth,A,Inshore,T5,11:14,0.5,1,A-Inshore-T5,A-Inshore-T5-0.5mm,NA,6,0,0,0,0,0,0,0,6,0,0,0,0,0,0,0,,T60 min,Nematodes present. Clam is most common species that we see in samples.
+6/2/20,2/5/21,Elizabeth,A,Inshore,T6,11:29,2,1,A-Inshore-T6,A-Inshore-T6-2mm,NA,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,
+6/2/20,2/5/21,Elizabeth,A,Inshore,T6,11:29,1,1,A-Inshore-T6,A-Inshore-T6-1mm,NA,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,Nematodes present.
+6/2/20,2/5/21,Elizabeth,A,Inshore,T6,11:29,0.5,1,A-Inshore-T6,A-Inshore-T6-0.5mm,NA,14,0,0,0,0,0,0,0,8,1,0,0,0,0,0,0,,,Nematodes present.
+6/2/20,2/3/21,Elizabeth,A,Extra-Tread,NA,11:21,2,1,A-Extra-Tread-NA,A-Extra-Tread-NA-2mm,NA,0,0,20,1,0,0,0,0,5,0,0,0,1,0,0,0,,Extra sample from 4 wheeler tred; near site A,Janine is 78% confident that it was taken on offshore side. Isopod is Doris. A few tubeworm tubes. Janine says there were birds feeding where she collected these extra samples.
+6/2/20,2/3/21,Elizabeth,A,Extra-Tread,NA,11:21,1,1,A-Extra-Tread-NA,A-Extra-Tread-NA-1mm,NA,0,6,101,2,0,0,0,0,5,1,0,0,0,0,0,0,,Extra sample from 4 wheeler tred; near site A,Janine is 78% confident that it was taken on offshore side. Janine says there were birds feeding where she collected these extra samples.
+6/2/20,2/3/21,Elizabeth,A,Extra-Tread,NA,11:21,0.5,1,A-Extra-Tread-NA,A-Extra-Tread-NA-0.5mm,NA,1,4,0,0,0,2,0,0,6,3,0,0,0,0,0,0,,Extra sample from 4 wheeler tred; near site A,Janine is 78% confident that it was taken on offshore side. Janine says there were birds feeding where she collected these extra samples.
+6/2/20,2/17/21,Elizabeth,A,Extra-Onshore,NA,11:10,2,1,A-Extra-Onshore-NA,A-Extra-Onshore-NA-2mm,NA,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,,Extra bird area onshore; 11:10am; Near site A (in front of crab shack),
+6/2/20,2/17/21,Elizabeth,A,Extra-Onshore,NA,11:10,1,1,A-Extra-Onshore-NA,A-Extra-Onshore-NA-1mm,NA,0,6,3,0,0,0,0,0,0,0,0,0,0,0,0,0,,Extra bird area onshore; 11:10am; Near site A (in front of crab shack),Nematodes present.
+6/2/20,2/17/21,Elizabeth,A,Extra-Onshore,NA,11:10,0.5,1,A-Extra-Onshore-NA,A-Extra-Onshore-NA-0.5mm,NA,4,6,0,0,0,3,0,0,2,7,0,0,0,0,0,1,,Extra bird area onshore; 11:10am; Near site A (in front of crab shack). Unknown is: A_Extra2_0.5mm_unknown,
+6/2/20,2/17/21,Elizabeth,A,Extra-Tread10,NA,11:22,2,1,A-Extra-Tread10-NA,A-Extra-Tread10-NA-2mm,NA,0,0,3,1,0,0,0,0,3,4,0,0,0,0,0,0,,Extra. 10 cm away from 4 wheeler tred. Near site A.,
+6/2/20,2/17/21,Elizabeth,A,Extra-Tread10,NA,11:22,1,1,A-Extra-Tread10-NA,A-Extra-Tread10-NA-1mm,NA,0,12,13,1,0,0,0,0,1,2,0,0,0,0,0,1,,Extra. 10 cm away from 4 wheeler tred. Near site A.,Mystery org is: A_ExtraTread10_1mm_org. It looks lobster-like. Nematodes present.
+6/2/20,2/17/21,Elizabeth,A,Extra-Tread10,NA,11:22,0.5,1,A-Extra-Tread10-NA,A-Extra-Tread10-NA-0.5mm,NA,0,5,0,1,0,0,0,0,7,6,0,0,0,0,0,0,,Extra. 10 cm away from 4 wheeler tred. Near site A.,
+6/2/20,2/17/21,Elizabeth,A,Extra-bird,NA,11:10,2,1,A-Extra-bird-NA,A-Extra-bird-NA-2mm,NA,0,0,0,4,0,0,0,0,3,0,0,0,0,0,0,0,,Extra - bird area. Offshore. Near crab shack at Site A.,
+6/2/20,2/17/21,Elizabeth,A,Extra-bird,NA,11:10,1,1,A-Extra-bird-NA,A-Extra-bird-NA-1mm,NA,2,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,,Extra - bird area. Offshore. Near crab shack at Site A.,Nematodes present.
+6/2/20,2/17/21,Elizabeth,A,Extra-bird,NA,11:10,0.5,1,A-Extra-bird-NA,A-Extra-bird-NA-0.5mm,NA,8,2,0,0,0,0,0,0,5,2,0,0,0,0,0,0,,Extra - bird area. Offshore. Near crab shack at Site A.,
+6/2/20,2/5/21,Elizabeth,C,Offshore,T1,10:20,2,1,C-Offshore-T1,C-Offshore-T1-2mm,NA,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,Collected by Jen Gilmore,
+6/2/20,2/5/21,Elizabeth,C,Offshore,T1,10:20,1,1,C-Offshore-T1,C-Offshore-T1-1mm,NA,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,Collected by Jen Gilmore,Nematodes present.
+6/2/20,2/5/21,Elizabeth,C,Offshore,T1,10:20,0.5,1,C-Offshore-T1,C-Offshore-T1-0.5mm,NA,1,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,,Collected by Jen Gilmore,Nematodes present.
+6/2/20,2/3/21,Elizabeth,C,Offshore,T2,10:35,2,1,C-Offshore-T2,C-Offshore-T2-2mm,NA,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,
+6/2/20,2/3/21,Elizabeth,C,Offshore,T2,10:35,1,1,C-Offshore-T2,C-Offshore-T2-1mm,NA,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,"Annelid image: CO_T1_1mm_worm. Nematodes present. Time Point listed as T1 on sample bag so originally assumed this samples was T1 but it's really T2 because the labeled the bags from T0 to T5, but the spreadsheet from T1 to T6."
+6/2/20,2/3/21,Elizabeth,C,Offshore,T2,10:35,0.5,1,C-Offshore-T2,C-Offshore-T2-0.5mm,NA,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,,,Nematodes present.
+6/2/20,2/12/21,Elizabeth,C,Offshore,T3,10:50,2,1,C-Offshore-T3,C-Offshore-T3-2mm,NA,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,
+6/2/20,2/12/21,Elizabeth,C,Offshore,T3,10:50,1,1,C-Offshore-T3,C-Offshore-T3-1mm,NA,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,,,Nematodes present. Clam valve is small common species.
+6/2/20,2/12/21,Elizabeth,C,Offshore,T3,10:50,0.5,1,C-Offshore-T3,C-Offshore-T3-0.5mm,NA,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,,,
+6/2/20,2/12/21,Elizabeth,C,Offshore,T4,11:05,2,1,C-Offshore-T4,C-Offshore-T4-2mm,NA,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,
+6/2/20,2/12/21,Elizabeth,C,Offshore,T4,11:05,1,1,C-Offshore-T4,C-Offshore-T4-1mm,NA,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,
+6/2/20,2/12/21,Elizabeth,C,Offshore,T4,11:05,0.5,1,C-Offshore-T4,C-Offshore-T4-0.5mm,NA,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,
+6/2/20,2/5/21,Elizabeth,C,Offshore,T5,11:20,2,1,C-Offshore-T5,C-Offshore-T5-2mm,NA,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,"Bag listed as T4, but it's actually T5",
+6/2/20,2/5/21,Elizabeth,C,Offshore,T5,11:20,1,1,C-Offshore-T5,C-Offshore-T5-1mm,NA,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,,"Bag listed as T4, but it's actually T5",Nematodes present.
+6/2/20,2/5/21,Elizabeth,C,Offshore,T5,11:20,0.5,1,C-Offshore-T5,C-Offshore-T5-0.5mm,NA,2,1,0,0,0,0,0,0,2,0,0,0,0,0,0,0,,"Bag listed as T4, but it's actually T5",
+6/2/20,2/17/21,Elizabeth,C,Offshore,T6,11:35,2,1,C-Offshore-T6,C-Offshore-T6-2mm,NA,0,0,0,0,0,0,0,0,2,0,0,0,1,0,0,0,,,Isopod is Doris genus.
+6/2/20,2/17/21,Elizabeth,C,Offshore,T6,11:35,1,1,C-Offshore-T6,C-Offshore-T6-1mm,NA,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,Nematodes present.
+6/2/20,2/17/21,Elizabeth,C,Offshore,T6,11:35,0.5,1,C-Offshore-T6,C-Offshore-T6-0.5mm,NA,2,1,0,0,0,1,0,0,4,0,0,0,0,0,0,0,,,Nematodes present.
+6/2/20,2/3/21,Elizabeth,C,Inshore,T1,10:15,2,1,C-Inshore-T1,C-Inshore-T1-2mm,NA,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,,,Bag says T0 but it must be T1. Isopod is Doris
+6/2/20,2/3/21,Elizabeth,C,Inshore,T1,10:15,1,1,C-Inshore-T1,C-Inshore-T1-1mm,NA,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,Bag says T0 but it must be T1. Nematodes present.
+6/2/20,2/3/21,Elizabeth,C,Inshore,T1,10:15,0.5,1,C-Inshore-T1,C-Inshore-T1-0.5mm,NA,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,Bag says T0 but it must be T1. Nematodes present.
+6/2/20,2/5/21,Elizabeth,C,Inshore,T2,10:30,2,1,C-Inshore-T2,C-Inshore-T2-2mm,NA,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,
+6/2/20,2/5/21,Elizabeth,C,Inshore,T2,10:30,1,1,C-Inshore-T2,C-Inshore-T2-1mm,NA,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,Nematodes present.
+6/2/20,2/5/21,Elizabeth,C,Inshore,T2,10:30,0.5,1,C-Inshore-T2,C-Inshore-T2-0.5mm,NA,4,1,0,0,0,1,0,0,3,0,0,0,0,0,0,0,,,
+6/2/20,2/17/21,Elizabeth,C,Inshore,T3,10:45,2,1,C-Inshore-T3,C-Inshore-T3-2mm,NA,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,
+6/2/20,2/17/21,Elizabeth,C,Inshore,T3,10:45,1,1,C-Inshore-T3,C-Inshore-T3-1mm,NA,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,
+6/2/20,2/17/21,Elizabeth,C,Inshore,T3,10:45,0.5,1,C-Inshore-T3,C-Inshore-T3-0.5mm,NA,2,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,,,
+6/2/20,1/29/21,Elizabeth,C,Inshore,T4,11:00,2,1,C-Inshore-T4,C-Inshore-T4-2mm,NA,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,"Worms are relatively big: CI_T3_2mm_worm1, CI_T3_2mm_worm2, CI_T3_2mm_worm3, CI_T3_2mm_worm4"
+6/2/20,1/29/21,Elizabeth,C,Inshore,T4,11:00,1,1,C-Inshore-T4,C-Inshore-T4-1mm,NA,4,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,"CI_T3_1mm_worm1. CI_T3_1mm_HSC1, CI_T3_1mm_HSC2, CI_T3_1mm_HSC3, CI_T3_1mm_HSC4. Nematodes present."
+6/2/20,1/29/21,Elizabeth,C,Inshore,T4,11:00,0.5,1,C-Inshore-T4,C-Inshore-T4-0.5mm,NA,3,0,0,0,0,0,0,0,4,0,0,0,0,0,0,0,,,Dropped 0.5mm sieve into collection bucket while sieving. Poured contents of bucket back through sieve to collect lost inverts and put in second petri dish. Nematodes present.
+6/2/20,2/15/21,Elizabeth,C,Inshore,T5,11:15,2,1,C-Inshore-T5,C-Inshore-T5-2mm,NA,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,
+6/2/20,2/15/21,Elizabeth,C,Inshore,T5,11:15,1,1,C-Inshore-T5,C-Inshore-T5-1mm,NA,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,,,Nematodes present.
+6/2/20,2/15/21,Elizabeth,C,Inshore,T5,11:15,0.5,1,C-Inshore-T5,C-Inshore-T5-0.5mm,NA,2,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,,,Nematodes present.
+6/2/20,2/12/21,Elizabeth,C,Inshore,T6,11:30,2,1,C-Inshore-T6,C-Inshore-T6-2mm,NA,2,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,,,
+6/2/20,2/12/21,Elizabeth,C,Inshore,T6,11:30,1,1,C-Inshore-T6,C-Inshore-T6-1mm,NA,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,,,"Egg looks like it's decomposing, but it has retained it's shape and structure and there is some material on the inside."
+6/2/20,2/12/21,Elizabeth,C,Inshore,T6,11:30,0.5,1,C-Inshore-T6,C-Inshore-T6-0.5mm,NA,7,1,0,0,0,1,0,0,4,0,0,0,0,0,0,1,,,"Unkown organism: CI_T5_0.5mm_org, CI_T5_0.5mm_org2"
