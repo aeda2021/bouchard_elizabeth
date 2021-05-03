@@ -32,7 +32,7 @@ The analysis presented in this report focuses on a narrow question using a subse
 
 # Methods
 
-##Study Area
+## Study Area
 
 The fieldwork associated with this project was conducted at Rutgers Cape Shore Research Laboratory (CSL; Figure 4), which is located about 2 hours south of New Brunswick, New Jersey. This facility is situated in the Cape Shore region of Delaware Bay and provides the opportunity to observe the remarkable ecological phenomenon between horseshoe crabs and rufa red knots. Horseshoe crabs typically lay nests on the beaches in this region between April and June. Rufa red knot use this region as a stopover site during their northward migration, typically visiting for two to three weeks in May. The study area is characterized by tidal flats with sandbars and sloughs, the water-filled areas between sandbars at low tide.
 
@@ -63,7 +63,7 @@ To approach this analysis, I started by tidying the data. Then, I plotted the da
 
 # Results
 
-##Tidying Data
+## Tidying Data
 
 First, I load the necessary libraries.
 ```{r setup}
@@ -332,7 +332,7 @@ plot(res_bar_glm3~simplesand$Inshore_or_Offshore,main="Standardized Residuals vs
 
 **After performing these diagnostics tests, I decided that this model structure better fits the data and I decided to use the GLMM with the negative binomial family for model selection.**
 
-##Compare to Null Model
+## Compare to Null Model
 
 The next step is to fit the corresponding null model. I choose the null model because I am asking the question: **Are there differences in prey abundance on the inshore vs. offshore side of sandbars?** Then, I compared the models using AIC. The deltaAIC is greater than 10, thus providing substantially more evidence in support of the alternative model (AIC 304) than the null model (AIC 328). I decide to use the generalized linear mixed effects model with a negative binomial distribution and with abundance as the response variable, the side of the sandbar as the explanatory variable, and sandbar site as a random intercept.
 ```{r fit null model and compare to alternative}
